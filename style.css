@@ -1,18 +1,22 @@
-body {
-     background-color: #383D58;
-    color: white;
- } 
- .estudante-imagem{
-    width: 120px;
+.cabecalho {
+    background-color: #383D58;
+    color: rgb(42, 74, 104);
+    display:flex;
+    justify-content: space-around;
     }
-      .escola-imagem{
-         background-image: linear-gradient(#383D58,#00c0eb);
-          color: white;
-           display:flex;
-            width:75%;
-         }
-        
-
-         body{
-            font-family:’Poppins’,sans-serif;
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        justify-content: space-around;
+        padding: 24px 0;
+        font-size: 24px;
+        }
+        .estudante-titulo{
+            text-align: center;
             }
+            .estudante-icone{
+                width:24px;
+                }
+                .estudante-div {
+                    text-align: center;
+                    }
