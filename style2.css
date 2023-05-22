@@ -1,0 +1,34 @@
+.cabecalho {
+    background-color: #383D58;
+    color: rgb(42, 74, 104);
+    display:flex;
+    justify-content: space-around;
+    }
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        justify-content: space-around;
+        padding: 24px 0;
+        font-size: 24px;
+        }
+        .estudante-titulo{
+            text-align: center;
+padding: 50px 0;
+            }
+            .estudante-icone{
+                width:24px;
+                }
+                .estudante-div {
+                    text-align: center;
+                    }
+                    .estudante-todos {
+                        display:grid;
+                        grid-template-columns: 20% 20% 20% 20%;
+                        }
+                        footer{
+                            background-color: black;
+                            padding: 15px 0;
+text-align: center;
+                            }
+
+                            
